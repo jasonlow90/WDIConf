@@ -22,6 +22,6 @@ development:
 #   <<: *default
 #   database: db/test.postgresql
 #
-# production:
-#   <<: *default
-#   database: db/production.postgresql
+production:
+  <<: *default
+  database: WDIConf_development

@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production #for heroku deployment
 # installed by NOC for annotating the models with information about the schema
 gem 'annotate' # see https://github.com/ctran/annotate_models
 # installed by NOC for accessing data from the server in JavaScript apps.
