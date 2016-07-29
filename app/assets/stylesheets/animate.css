@@ -96,6 +96,7 @@
   transform-origin: center bottom;
 }
 
+
 @-webkit-keyframes flash {
   from, 50%, to {
     opacity: 1;
